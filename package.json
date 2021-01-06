@@ -2,6 +2,8 @@
   "name": "flatList",
   "version": "0.0.1",
   "private": true,
+  
+  "main": "index.js",
 
   "peerDevDependencies": {
    "react-native": "0.63.3"
