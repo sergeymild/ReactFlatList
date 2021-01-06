@@ -1,11 +1,19 @@
 {
-  "name": "FlatList",
+  "name": "flat-list",
   "version": "0.0.1",
   "private": true,
-  
-  "main": "index.js",
 
-  "peerDevDependencies": {
-   "react-native": "0.63.3"
+  "main": "index.js",
+  "types": "types.d.ts",
+  "dependencies": {
+    "react-native": "0.63.3",
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.63.44"
+  },
+  "peerDependencies": {
+   "react-native": "0.63.3",
+    "@types/react-native": "^0.63.44"
   }
 }
